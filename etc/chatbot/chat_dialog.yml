@@ -5,30 +5,30 @@
 
 /(was soll).+(\?)/i: 'Der Glücksschnapper meint: schlafe noch eine Nacht drüber!'
 
+/(wann|ostern|wochenende)/i: 'Dafür solltest du lieber in den Kalender schauen.'
+/(wer|was|woher|warum|wieviel|welche)/i: 'Leider bin ich nur eine Bedienungsanleitung für den Campus.'
+
+/(lo(f)l|rofl|gg|ftw|lm(f)ao)/i: 'Haha, und nun zu deiner Frage.'
 
 
-
-
-
-
-
-
+/(facebook|chatroulette|zalando|klum|merkel|wulff|obama|costa|irak|afghanistan|libyen)/i: 'Ups, einer von uns beiden ist da wohl an den falschen Gesprächspartner geraten...'
+/(google|apple|iphone|ipad)/i: 'Jaaa geeenau, vielleicht findest du damit eine besser Antwort!!!'
 
 
 
 
 #/(bin|hab|ist|sind)/i: 'can_i_help'
 /(lange?weil|hunge?r|spaß|spass|hilf|mutt|mama|wetter|kater|hangover|unterhaltung|freund|freud|erfolg)/i: 'Bei solchen Angelegenheiten solltest du lieber deine Mutter fragen.'
-/(reich|schönheit|schoenheit|warm|wärm|waerm)/i: 'Bei solchen Angelegenheiten solltest du lieber deine Mutter fragen.'
+/(geld|reich|schönheit|schoenheit|warm|wärm|waerm|weihnachten)/i: 'Bei solchen Angelegenheiten solltest du lieber deine Mutter fragen.'
 
-/(studium|bachelor|master|diplom|magister|uni|prüfung|pruefung|modul|stundenplan)/i: 'Hey, so genau kenne ich den Campus nun auch nicht!'
+/(studium|bachelor|master|diplom|magister|uni|prüfung|pruefung|modul|stundenplan|semester|ferien|prof)/i: 'Hey, so genau kenne ich den Campus nun auch nicht!'
 
 
-/(liebe|herz|seele|religion|gott|spaghettimonster|heirat|wahrheit|lüg|lueg)/i: 'Der Glücksschnapper meint: schütte dein Herz nicht Fremden aus!'
+/(liebe|herz|seele|religion|gott|spaghettimonster|heirat|wahrheit|lüg|lueg|angst)/i: 'Der Glücksschnapper meint: schütte dein Herz nicht Fremden aus!'
 
 /(süßigkeiten|suessigkeiten|kaugummi|bonbon|stulle|braten|spätz|spaetz|eier|essen|durst|obst|apfel|banane)/i: 'Versuch es mit der Mensa.'
 /(pizza|döner|doener|sushi|fleisch|zigarette|rauchen|caf|kaff|drink|wein|bier|alkohol|mc|burger|energ)/i: 'Versuch es mit der Mensa.'
-/(keks|kuchen|quark|joghurt|cola|mittag|mittach|fraß|futter|zigarette|rauchen|krabben|cocktail|käse|kaese)/i: 'Versuch es mit der Mensa.'
+/(keks|kuchen|quark|joghurt|cola|fanta|sprite|mittag|mittach|fraß|futter|zigarette|rauchen|krabben|cocktail|käse|kaese)/i: 'Versuch es mit der Mensa.'
 
 
 /(wasser|water)/i: 'Come find me when you've got something new to say, Helen Keller!'
@@ -36,7 +36,7 @@
 
 #/(das|solch|mein|unser|dein|ander)/i: 'can_i_help'
 /(zuhaus|mond|himmel|aldi|porta|bahnhof|tankstelle|luxemb|berlin|woanders|china|amerika|meer|natur)/i: 'Hallo? Ich bin kein Stadtplan.'
+/(saar|köln|koeln|pott|(nord|ost)see|frank(reich|furt)|bank|(hol|deutsch|eng)land|amsterdam|bushaltestelle)/i: 'Hallo? Ich bin kein Stadtplan.'
 
-
-
-/42/i: 'Anscheinend weißt du selbst schon alles.'
+/(chuck norris)/i: 'I won't search for Chuck Norris because I know you don't find Chuck Norris, he finds you.'
+/(42)/i: 'Anscheinend weißt du selbst schon alles.'
